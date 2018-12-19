@@ -1,0 +1,137 @@
+.rencai {
+	margin-bottom: 35px;
+	overflow: hidden;
+	width: 100%;
+}
+.rencai ul{
+	width:100%;
+	overflow:hidden;
+	*font-size:0;
+}
+.rencai li {
+	background: #f4f4f4;
+	margin-bottom: 1px;
+	overflow: hidden;
+	width: 100%;
+}
+.rencai li *{
+	*font-size:12px;
+}
+.rencai li .job_item_top {
+	_height: 54px;
+	width: 100%;
+	overflow: hidden;
+	background-color: #005ebf;
+	color:#fff;
+}
+.rencai .current .job_item_top, .rencai li .job_item_top:hover {
+	background: #003d94;
+}
+.rencai li .job_item_top .leftb h3 {
+	float: left;
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 40px;
+	margin: 0 13px 0 21px;
+}
+.rencai li .job_item_top .leftb {
+	float: left;
+	width: 100%;
+}
+.rencai li .job_item_top .leftb span {
+  background: #004388 none repeat scroll 0 0;
+  float: left;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  width: 40px;
+}
+.rencai li .job_item_top .leftb span.fr{
+	background: none;
+}
+.rencai li .job_item_top .rigb {
+	float: right;
+	margin-right: 20px;
+}
+.rencai li .job_item_top .rigb a {
+	color:#fff;
+	float: left;
+	line-height: 54px;
+	padding-right: 15px;
+}
+.rencai .current .rigb i {
+	background-position: 0 0;
+}
+.rencai li .job_item_top .rigb i {
+	background: url("../images/ss.png") no-repeat 0 -26px;
+	display: block;
+	float: left;
+	height: 26px;
+	margin-top: 13px;
+	width: 26px;
+}
+.rencai li .la_job {
+	display: none;
+	width: 100%;
+	overflow: hidden;
+	transition:none;
+}
+.rencai li.first .la_job {
+	display: block;
+}
+
+.rencai li.apply_page{
+	position: relative;
+	background-color: #005ebf;
+	height: 40px;
+	line-height: 40px;
+	box-sizing: border-box;
+}
+.rencai li.apply_page span{
+	color: #fff;
+  background: #004388 none repeat scroll 0 0;
+  float: left;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  width: 40px;
+	
+}
+.rencai li.apply_page a{
+	color: #FFFFFF;
+	font-size: 14px;
+	padding-left: 60px;
+	box-sizing: border-box;
+}
+.zplist {
+	overflow: hidden;
+	border-bottom: 1px solid #dfdfdf;
+	padding: 25px 0 20px 40px;
+}
+.zplist dl {
+	width: 50%;
+	overflow: hidden;
+	_width:600px;
+}
+.zplist dl dd {
+	line-height: 25px;
+	overflow: hidden;
+	min-width: 33.333%;
+	color: #888;
+	float: left;
+	_width:200px;
+}
+.zplist dl dd span {
+	display: inline-block;
+	color: #003d94;
+	padding-right: 10px;
+}
+.xxjs {
+  height: 120px;
+  overflow: auto;
+  padding: 15px 40px 40px;
+}
+.xxjs p {
+	color: #888888;
+	line-height: 24px;
+}

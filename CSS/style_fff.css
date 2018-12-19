@@ -1,0 +1,54 @@
+body{
+	background-color: #fff;
+}
+.content .article h1{
+	color: #0057b0;
+}
+.content .article p{
+	color: #333;
+}
+.content .left{
+	width: 350px;
+	overflow: hidden;
+	margin-left: 10%;
+	margin-top: 15%;
+}
+.content .left img{
+	width: 100%;
+	height: auto;
+}
+.content .right{
+	margin: 30px 0 10px;
+	width: 600px;
+	min-height: 540px;
+	overflow: hidden;
+}
+.content .right ul{
+	color: #004388;
+	font-size: 14px;
+	text-transform: uppercase;
+	margin-bottom: 40px;
+	padding-left: 10px;
+	border-left: 5px solid #f9ae2a;
+}
+.content .right ul li{
+	
+}
+.content .right ul li:first-child{
+	font-size: 18px;
+	padding-bottom: 20px;
+}
+
+.foot{
+	color: black;
+}
+#left_scroll {
+	background:url("../images/left_666.png") no-repeat left center;
+}
+
+#right_scroll {
+	background:url("../images/right_666.png") no-repeat right center;
+}
+.share a.facebook {
+	background:url("../images/fb.png") no-repeat center center;
+}

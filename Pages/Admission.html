@@ -1,0 +1,217 @@
+
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+				
+		<title>Admission Process - Dar-UL-Ehsan Study Advisors</title>
+		<link rel="stylesheet" type="text/css" href="../CSS/mystyle.css" />
+	</head>
+
+	<body>
+		<div class="head_bg"></div>
+		<div class="head w">
+			<div class="menu">
+				<div class="menu-header-container"><ul id="menu-header" class="menu"><li id="menu-item-1297"><a href="../index.html">Home</a></li>
+<li id="menu-item-1495"><a href="../Pages/AboutUs.html">About Us</a>
+<ul class="sub-menu">
+	<li id="menu-item-1504"><a href="../Pages/AboutUs.html">About Us</a></li>
+	<li id="menu-item-1496"><a href="../Pages/Ceo.html">CEO Message</a></li>
+	<li id="menu-item-1506"><a href="../Pages/Admission.html">Admission Process</a></li>
+</ul>
+</li>
+<li id="menu-item-1505"><a href="../Pages/Gallery.php">Gallery</a></li>
+<li id="menu-item-1501"><a href="#">MBBS UNIVERSITIES</a>
+<ul class="sub-menu">
+<li id="menu-item-1568"><a href="../Pages/JiangxiUni.html">JIANGXI UNIVERSITY OF T C M</a></li>
+	<li id="menu-item-1568"><a href="../Pages/YananUni.html">YANAN UNIVERSITY</a></li>
+	<li id="menu-item-1571"><a href="../Pages/HuangheUni.html">HUANGHE UNIVERSITY OF S N T</a></li>
+	<li id="menu-item-1572"><a href="../Pages/SouthChinaUni.html">UNIVERSITY OF SOUTH CHINA</a></li>
+	<li id="menu-item-1572"><a href="../Pages/YichunUni.html">YICHUN UNIVERSITY</a></li>
+	<li id="menu-item-1572"><a href="../Pages/ShenyangUni.html">SHENYANG MEDICAL COLLEGE</a></li>
+	<li id="menu-item-1572"><a href="../Pages/shaanxi.html">SHAANXI UNIVERSITY OF C M</a></li>
+</ul>
+</li>
+<li id="menu-item-1499"><a href="#">ENGINEERING UNIVERSITIES</a>
+<ul class="sub-menu">
+<li id="menu-item-1600"><a href="../Pages/SichuanUni.html">SICHUAN UNIVERSITY</a></li>
+<li id="menu-item-1601"><a href="../Pages/JiangxiNUni.html">JIANGXI NORMAL UNIVERSITY</a></li>
+	<li id="menu-item-1602"><a href="../Pages/TaiyuanUni.html">TAIYUAN UNIVERSITY</a></li>
+	<li id="menu-item-1603"><a href="../Pages/LiaoningUni.html">LIAONING UNIVERSITY</a></li>
+	<li id="menu-item-1603"><a href="../Pages/SanmingUni.html">SANMING UNIVERSITY</a></li>
+</ul>
+</li>
+<li id="menu-item-1498"><a href="../Pages/Login.php">Admin Login</a></li>
+</li>
+<li id="menu-item-1507"><a href="../Pages/ApplyOnline.php">apply online</a></li>
+<li id="menu-item-1497"><a href="../Pages/Contact.html">Contact</a></li>
+</ul></div>				<div class="cb"></div>
+			</div>
+		</div>
+		<link rel="stylesheet" type="text/css" href="../CSS/style.css" />
+<link rel="stylesheet" href="../CSS/l_style.css">
+<script src="../JavaScript/jquery-1.8.3.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="../JavaScript/public.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+	$(function() {
+		var oFocus = $('#focus'),
+			oRight = oFocus.find('.right'),
+			oLeft = oFocus.find('.left'),
+			aRLi = oRight.find('li'),
+			aLLi = oLeft.find('li'),
+			index = 0,
+			timer = null;
+		aRLi.click(function() {
+			index = $(this).index()
+			$(this).addClass('active').siblings().removeClass();
+			aLLi.eq(index).addClass('active').siblings().removeClass();
+			aLLi.eq(index).stop().animate({
+				'opacity': 1
+			}, 300).siblings().stop().animate({
+				'opacity': 0
+			}, 300);
+			stopFoucs();
+		})
+		oLeft.mouseenter(function() {
+			stopFoucs();
+		}).mouseleave(function() {
+			startFocus();
+		});
+		timer = setInterval(function() {
+			startFocus();
+		}, 5000);
+
+		function startFocus() {
+			index++;
+			index = index > aRLi.size() - 1 ? 0 : index;
+
+			aLLi.eq(index).addClass('active').siblings().removeClass();
+			aLLi.eq(index).stop().animate({
+				'opacity': 1
+			}, 300).siblings().stop().animate({
+				'opacity': 0
+			}, 300);
+			aRLi.eq(index).addClass('active').siblings().removeClass();
+		}
+
+		function stopFoucs() {
+			clearInterval(timer);
+		}
+	})
+</script>
+<div class="content">
+	<div class="leftbox">
+		<h1>Our Satisfied Guaranteed MBBS Admission Process</h1>
+		<div class="rencai">
+			<ul>
+												<li>
+					<div class="job_item_top">
+						<div class="leftb">
+							<span>1</span>
+							<h3>Initial Process</h3>
+							<span class="fr"><img src="../images/nav_pd.png"/></span>
+						</div>
+					</div>
+					<div class="la_job">
+						<div class="xxjs">
+							<p>(1) Students have to submit their Educational documents (10+2) to our Admission office along with Passport photocopy (1st & 2nd Page ) , 4 photos & filled application form.
+(2) After 3 or 4 Working days University will send admission letter through our admission office to the student.
+(3) When student has received admission letter by the University. Then he has to contact our nearby office and talk with office person for Details,Then office will apply JW202 ( Invitation Letter by MOE china ).  It may take 2 to 3 weeks for JW202 process</p>
+						</div>
+					</div>
+				</li>
+								<li>
+					<div class="job_item_top">
+						<div class="leftb">
+							<span>2</span>
+							<h3>Documents Verification</h3>
+							<span class="fr"><img src="../images/nav_pd.png"/></span>
+						</div>
+					</div>
+					<div class="la_job">
+						<div class="xxjs">
+							<p>Before going to Chinese Embassy Student have to attest Following Documents 1st from their relevant education board and after that from IBCC ( Inter board Chairman Committee ) . Then all documents mentioned below must be attested by Foreign Affairs Office in Islamabad.
+(1) Matric / O Levels / Grade 10 Document
+(2) FSc / A levels  ( 10+2) / Grade 12 Document
+(3) Medical Checkup from Chinese Clinical Lab in Islamabad F-10 Markaz.(no need attest from anywhere)
+(4) Police Clearance Certificate ( Required Attestation only by Foreign office )
+(5) Bank Statment (latest 6 months) of Parents or blood relation of student with more than 6000 USD $ in bank account.
+(6) Affidavit of Sponser support , attested by notary public
+(7)Family certificate from Nadra.
+</p>
+						</div>
+					</div>
+				</li>
+								<li>
+					<div class="job_item_top">
+						<div class="leftb">
+							<span>3</span>
+							<h3>Visa Processing</h3>
+							<span class="fr"><img src="../images/nav_pd.png"/></span>
+						</div>
+					</div>
+					<div class="la_job">
+						<div class="xxjs">
+							<p>After all these required attestations Student will fill Chinese Embassy application form and make 4 pictures according to the requirements of Chinese Embassy (33mmx48mm) with white background
+Our Official Representative will go to Chinese Embassy with the student to stamp visa from Chinese Embassy.
+After 4 working days Chinese Embassy will stamp visa on student passport and then Student have to get ready for Flight to China for his University.</p>
+						</div>
+					</div>
+				</li>
+								<li>
+					<div class="job_item_top">
+						<div class="leftb">
+							<span>4</span>
+							<h3>Home to University</h3>
+							<span class="fr"><img src="../images/nav_pd.png"/></span>
+						</div>
+					</div>
+					<div class="la_job">
+						<div class="xxjs">
+							<p>Dar-UL-Ehsan Study Advisors are providing home to Universities Services to our students .
+
+From the very start of visa process to the end of visa process we are in contact with the students to satisfy our Students . Not only in Pakistan We are also present in China and having our Offices in China.
+
+When the Flight Lands then our Pakistan Office will provide the contact number to the Parents of students of China office . Our China Office representative will pick the students and when the students reached in University our China Office representative will Collect the fee that are committed before the Admissions and China office Administrator will give fee Slips to the students. University Will provide hostel facility for the students.
+
+For opening of  Bank Account , residence Permit , Insurance , Medical Checkup University will help the students.
+
+When the Classes will start then our responsibility will be over and the student is handed over to the university. Student must obey the rules of the University and Chinese Govt Rules.</p>
+						</div>
+					</div>
+				</li>
+												<li class="apply_page"><span>5</span><a href="../Pages/ApplyOnline.php">APPLY&nbsp;NOW</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="rightbox">
+		<div class="focus" id="focus">
+			<div class="left">
+				<ul>
+					<li class="active" style="opacity:1; filter:alpha(opacity=100);"> <img src="../images/20170711112522578.jpg" alt="4"></li>				</ul>
+			</div>
+			<div class="right">
+				<ul>
+					<li class="active"></li>				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="cb">
+	
+</div>
+<div class="bg_bottom">
+	<img class="bg_left" src="../images/bg_l.png" />
+	<img class="bg_right" src="../images/bg_r.png" />
+</div>
+		<div class="foot w">
+			<div class="share">
+				<a href="https://www.facebook.com/chinaadmissionhelp/" target="_blank" class="facebook"></a>
+			</div>
+			<p style="color:black">DAR-UL-EHSAN ADVISORS				<a href="#"></a>
+			</p>
+		</div>
+	</body>
+
+</html>

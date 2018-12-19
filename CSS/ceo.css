@@ -1,0 +1,22 @@
+img{ display: block; margin: 0; padding: 0;}
+.container{ width:1200px; margin:0 auto; overflow: hidden;}
+.clearfix{ clear: both;}
+/*ceo css*/
+.ceobg{ width:100%; margin: 0 auto; overflow: hidden;}
+.ceobox{ background: url(../images/ceoboxbg.png) top center no-repeat; width:1045px; height:540px; margin: 0 auto; margin-top:60px;}
+.ceoleft{ float: left; width:286px;}
+.ceoleft h1{ font-size: 30px; line-height: 64px; color:#fff; font-weight: normal; margin-bottom: 10px; margin-left: 40px;}
+.ceoleft h2{ font-size: 25px; line-height: 75px; color:#fff; margin-left: 26px; background: #144b91; text-align: center;}
+.ceoleft img{ margin-left: 26px;}
+.ceoright{ padding-left: 36px; padding-right: 26px; overflow: auto;  float: left; width:697px; margin-top: 66px; height:432px;}
+.ceoright p{ font-size: 14px; line-height: 36px; color:#fff;}
+
+/*gallery*/
+.gabg{ width: 100%; margin:0 auto; overflow: hidden; margin-top: 40px;}
+.gabg ul{ margin: 0 auto; width:1140px;}
+.gabg ul li{ margin:5px; float: left; width:370px; height:230px;}
+.gabg ul li img{ width:100%;}
+.gapa{ width: 190px; margin: 30px auto;clear: both;}
+.gapa a{ display: block; width: 40px; float:left; height:30px; background: #0057b0; border:1px #004388 solid; margin: 0 5px;}
+.gapa a img{ display: block; margin: 1px auto;}
+.gapa span{ display: block; width: 80px; height: 30px; border:1px #004388 solid; background: #fff; color:#333; font-size: 16px; line-height: 30px; text-align: center;}
